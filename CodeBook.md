@@ -8,13 +8,13 @@ The data began as the set of files described in the /UCI HAR Dataset/README.txt,
 <h1>Variables</h1>
 ---------------------------
 
-id:
+<h3>id:</h3>
 
 Activity: the activity performed by the subject, taken from the list in /UCI HAR Dataset/activity_labels.txt
 <br>
 Subject: An identifying number from 1 to 30 that signifies on which subject the measurements were taken
 
-measurement:
+<h3>measurement:</h3>
 
 (Excerpt taken from /UCI HAR Dataset/features_info.txt)
 <br>((Note that the descriptions for the variables as they appear in this data set only change in that they are the averaged values of the variables described in the UCI HAR Dataset -- as explained below in Transformations))
