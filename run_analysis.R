@@ -25,7 +25,6 @@ run_analysis <- function() {
                 actNamesCol <- c(actNamesCol,actNames[as.numeric(dat2[i,2])])
         }
         dat2[,2] <- actNamesCol
-        dat2 <<- dat2
         ## STEP 5 create second, independent, tidy data set with
         ## average of each variable for each activity and each subject
         library(reshape2)
